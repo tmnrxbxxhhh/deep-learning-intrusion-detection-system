@@ -82,3 +82,31 @@ The comparison notebook is dedicated to comparing the performance of the four ap
 * Deep Learning
 * Intrusion Detection Systems (IDS)
 * CICIDS2017 Dataset
+
+## How to Run
+
+The notebooks are designed to be executed using **Google Colab**.
+
+### 1. Kaggle Account
+
+A Kaggle account is required to obtain the CICIDS2017 dataset.
+
+Each user should use their own Kaggle account and their own API credentials.
+
+### 2. Kaggle API Configuration
+
+Before running the notebooks, configure the Kaggle API in Google Colab using your own `kaggle.json` credentials.
+
+> **Security note:** Do not share your Kaggle API key or commit `kaggle.json` to this repository.
+
+### 3. Dataset
+
+Download the required CICIDS2017 dataset using the Kaggle API and place the CSV files in the dataset directory expected by the notebook.
+
+### 4. Run the Notebooks
+
+Open the required notebook from the `notebooks/` directory in Google Colab and execute the cells sequentially.
+
+Each notebook contains the training and evaluation process for its corresponding deep learning approach, including performance curves generated during execution.
+
+The comparison notebook is used to compare the results of the four approaches.
