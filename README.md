@@ -54,3 +54,11 @@ deep-learning-intrusion-detection-system/
 │
 └── README.md
 ```
+
+## Technologies Used
+
+* Python
+* Google Colab
+* Deep Learning
+* Intrusion Detection Systems (IDS)
+* CICIDS2017 Dataset
