@@ -18,3 +18,25 @@ The models were developed and evaluated using the **CICIDS2017** dataset, a netw
 The dataset contains network traffic representing both benign activity and different types of attacks.
 
 > The CICIDS2017 dataset is not included in this repository due to its size.
+
+## Deep Learning Approaches
+
+The IDS was developed using four deep learning approaches:
+
+### 1. CNN
+
+A Convolutional Neural Network (CNN) approach for learning patterns from network traffic features.
+
+### 2. DNN
+
+A Deep Neural Network (DNN) approach for classifying network traffic.
+
+### 3. RNN
+
+A Recurrent Neural Network (RNN) approach for learning sequential patterns in network traffic.
+
+### 4. Transformer + AutoEncoder
+
+A combined Transformer and AutoEncoder architecture designed to learn meaningful representations of network traffic for intrusion detection.
+
+Each approach is implemented in a separate notebook located in the `notebooks/` directory.
