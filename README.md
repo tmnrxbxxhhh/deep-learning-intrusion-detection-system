@@ -40,3 +40,17 @@ A Recurrent Neural Network (RNN) approach for learning sequential patterns in ne
 A combined Transformer and AutoEncoder architecture designed to learn meaningful representations of network traffic for intrusion detection.
 
 Each approach is implemented in a separate notebook located in the `notebooks/` directory.
+
+## Project Structure
+
+```text
+deep-learning-intrusion-detection-system/
+│
+├── notebooks/
+│   ├── CNN.ipynb
+│   ├── DNN.ipynb
+│   ├── RNN.ipynb
+│   └── Transformer_AutoEncoder.ipynb
+│
+└── README.md
+```
