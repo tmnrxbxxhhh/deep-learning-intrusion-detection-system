@@ -50,10 +50,15 @@ deep-learning-intrusion-detection-system/
 │   ├── CNN.ipynb
 │   ├── DNN.ipynb
 │   ├── RNN.ipynb
-│   └── Transformer_AutoEncoder.ipynb
+│   ├── Transformer_AutoEncoder.ipynb
+│   └── CourbeComparatif.ipynb
 │
 └── README.md
 ```
+
+The individual notebooks contain the implementation and training process of each deep learning approach, including the resulting training and evaluation curves.
+
+The comparison notebook is dedicated to comparing the performance of the four approaches.
 
 ## Technologies Used
 
