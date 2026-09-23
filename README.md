@@ -77,8 +77,8 @@ The main stages of the project are:
 5. **Comparative Analysis**
 
    * Use `CourbeComparatif.ipynb` to compare the results obtained from the four approaches.
-  
-   * ## Evaluation Metrics
+
+## Evaluation Metrics
 
 The models are evaluated using several classification metrics and visual analysis, including:
 
@@ -126,6 +126,7 @@ This notebook brings together the results of the four approaches:
 The comparison is based on the experimental results obtained from the individual approaches and provides a comparative view of their performance for network intrusion detection.
 
 Detailed results and visualizations can be found in the corresponding notebooks.
+
 The performance curves are generated directly during notebook execution in Google Colab. They are displayed as part of the notebook outputs and are not stored as separate image files in the repository.
 
 ## Technologies Used
@@ -178,5 +179,3 @@ The project includes:
 * Performance curves generated during model execution.
 * A dedicated notebook for comparative analysis.
 * Experimental analysis and discussion of the obtained results.
-
-The comparison notebook is used to compare the results of the four approaches.
