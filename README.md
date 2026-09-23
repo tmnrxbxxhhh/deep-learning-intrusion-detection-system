@@ -77,6 +77,19 @@ The main stages of the project are:
 5. **Comparative Analysis**
 
    * Use `CourbeComparatif.ipynb` to compare the results obtained from the four approaches.
+  
+   * ## Evaluation Metrics
+
+The models are evaluated using several classification metrics and visual analysis, including:
+
+* Accuracy
+* F1-score
+* ROC-AUC
+* Classification Report
+* Confusion Matrix
+* ROC Curve
+
+These metrics are used to analyze the performance of the different deep learning approaches for network intrusion detection.
 
 ## Project Structure
 
