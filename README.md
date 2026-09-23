@@ -41,6 +41,43 @@ A combined Transformer and AutoEncoder architecture designed to learn meaningful
 
 Each approach is implemented in a separate notebook located in the `notebooks/` directory.
 
+## Methodology
+
+The project follows a deep learning-based intrusion detection workflow using the CICIDS2017 dataset.
+
+The main stages of the project are:
+
+1. **Data Preparation**
+
+   * Load the CICIDS2017 network traffic data.
+   * Clean and preprocess the input features.
+   * Handle labels and transform them into the required format.
+
+2. **Data Preprocessing**
+
+   * Encode categorical labels.
+   * Normalize the input features.
+   * Split the data into training and evaluation sets.
+
+3. **Model Training**
+
+   * Train four deep learning approaches independently:
+
+     * CNN
+     * DNN
+     * RNN
+     * Transformer + AutoEncoder
+
+4. **Model Evaluation**
+
+   * Evaluate the trained models using classification metrics.
+   * Generate performance curves during execution.
+   * Analyze the behavior and performance of each approach.
+
+5. **Comparative Analysis**
+
+   * Use `CourbeComparatif.ipynb` to compare the results obtained from the four approaches.
+
 ## Project Structure
 
 ```text
