@@ -167,4 +167,16 @@ Open the required notebook from the `notebooks/` directory in Google Colab and e
 
 Each notebook contains the training and evaluation process for its corresponding deep learning approach, including performance curves generated during execution.
 
+## Project Status
+
+Completed Master's thesis project.
+
+The project includes:
+
+* Four deep learning approaches for intrusion detection.
+* Individual training and evaluation notebooks.
+* Performance curves generated during model execution.
+* A dedicated notebook for comparative analysis.
+* Experimental analysis and discussion of the obtained results.
+
 The comparison notebook is used to compare the results of the four approaches.
