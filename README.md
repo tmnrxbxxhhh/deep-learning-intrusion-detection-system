@@ -80,9 +80,14 @@ Detailed results and visualizations can be found in the corresponding notebooks.
 ## Technologies Used
 
 * Python
+* TensorFlow / Keras
+* Scikit-learn
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
 * Google Colab
-* Deep Learning
-* Intrusion Detection Systems (IDS)
+* Google Drive
 * CICIDS2017 Dataset
 
 ## How to Run
