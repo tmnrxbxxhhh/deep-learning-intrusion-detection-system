@@ -58,22 +58,24 @@ deep-learning-intrusion-detection-system/
 
 ## Results and Evaluation
 
-Each deep learning approach includes a training and evaluation process in its corresponding notebook.
+Each deep learning approach includes its own training and evaluation process in the corresponding notebook.
 
-The notebooks contain visualizations of the model performance, including training and evaluation curves generated during execution.
+The notebooks generate performance curves during model training and evaluation, allowing the behavior and performance of each approach to be analyzed.
 
-A separate comparison notebook is provided to analyze and compare the results obtained from the four approaches:
+The project includes a dedicated comparison notebook:
+
+`CourbeComparatif.ipynb`
+
+This notebook brings together the results of the four approaches:
 
 * CNN
 * DNN
 * RNN
 * Transformer + AutoEncoder
 
-The comparison is based on the experimental results obtained during the project and is discussed in the context of network intrusion detection using the CICIDS2017 dataset.
+The comparison is based on the experimental results obtained from the individual approaches and provides a comparative view of their performance for network intrusion detection.
 
-The individual notebooks contain the implementation and training process of each deep learning approach, including the resulting training and evaluation curves.
-
-The comparison notebook is dedicated to comparing the performance of the four approaches.
+Detailed results and visualizations can be found in the corresponding notebooks.
 
 ## Technologies Used
 
